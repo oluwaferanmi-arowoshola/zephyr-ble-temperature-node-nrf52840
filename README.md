@@ -151,6 +151,7 @@ The interference experiment introduced a higher-priority busy thread to observe 
 
 ## Repository Structure
 
+```text
 │
 ├── docs/
 ├── src/
@@ -159,6 +160,7 @@ The interference experiment introduced a higher-priority busy thread to observe 
 ├── images/
 ├── README.md
 └── .gitignore
+```
 
 ---
 

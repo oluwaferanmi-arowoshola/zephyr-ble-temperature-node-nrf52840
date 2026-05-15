@@ -1,55 +1,39 @@
-# Prerequisites
-*.d
+# Zephyr / West build outputs
+build/
+build_*/
+twister-out/
+.zephyr/
+.cache/
 
-# Object files
+# CMake / Ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# Object / binary files
 *.o
-*.ko
-*.obj
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
 *.hex
+*.bin
+*.map
+*.lst
+*.obj
+*.exe
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Logs
+*.log
+*.tmp
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
-# debug information files
-*.dwo
+# Microsoft Office temp files
+~$*.docx
+~$*.xlsx

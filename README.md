@@ -326,3 +326,7 @@ Oluwaferanmi Arowoshola
 M.S. Electrical & Computer Engineering
 
 Embedded Systems · Zephyr RTOS · Bluetooth Low Energy · Real-Time Systems · IoT
+
+## License
+
+This project is licensed under the MIT License.
